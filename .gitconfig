@@ -1,0 +1,16 @@
+[user]
+	email = organisciak@gmail.com
+	name = Peter Organisciak
+
+[alias]
+	st = status --short --ignore-submodules
+	wiff = diff --word-diff
+	ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+[core]
+	filemode = false
+	editor = vim
+	excludesfile = /home/Peter/dotfiles/.gitignore_global
+[push]
+	default = simple
+[color]
+	ui = auto

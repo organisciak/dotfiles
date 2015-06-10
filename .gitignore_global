@@ -1,0 +1,7 @@
+# Vim temp files and swap files
+*~
+*.sw[op]
+#
+# Node modules are recommended to be resolved by npm, not checked in
+# https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
+node_modules
