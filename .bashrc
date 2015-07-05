@@ -32,7 +32,11 @@
 node='/cygdrive/c/Program Files (x86)/nodejs'
 npm=/cygdrive/c/Users/Peter/AppData/Roaming/npm/
 mongo='/cygdrive/c/Program Files/MongoDB/Server/3.0/bin/'
-export PATH="$PATH:$node:$npm:$mongo"
+rubyheroku='/cygdrive/c/Program\ Files\ \(x86\)/Heroku/ruby-1.9.3/bin/'
+export PATH="$PATH:$node:$npm:$mongo:$rubyheroku"
+
+#Grunt autocomplete
+eval "$(grunt --completion=bash)"
 
 #
 # See man bash for more options...
@@ -118,6 +122,8 @@ alias diss='cd /cygdrive/c/Users/Peter/Dropbox/School/phd6-post-field-exam/disse
 alias crowdy='cd /cygdrive/c/Users/Peter/Dropbox/School/phd6-post-field-exam/crowdy/'
 alias htrc='cd /cygdrive/c/Users/Peter/Dropbox/work/htrc/'
 alias mirex='cd /cygdrive/c/Users/Peter/Dropbox/work/mirex/'
+
+alias heroku='/cygdrive/c/Program\ Files\ \(x86\)/Heroku/bin/heroku.bat'
 # Some shortcuts for different directory listings
 # alias ls='ls -hF --color=tty'                 # classify files in colour
 # alias dir='ls --color=auto --format=vertical'
