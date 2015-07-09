@@ -14,3 +14,5 @@
 	default = simple
 [color]
 	ui = auto
+[credential]
+	helper = !'/cygdrive/C/Users/Peter/AppData/Roaming/GitCredStore/git-credential-winstore.exe'
