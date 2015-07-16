@@ -43,6 +43,9 @@ source ~/dotfiles/tmuxinator.bash
 
 export EDITOR='vim'
 
+# 256 color support
+export TERM=xterm-256color
+
 #
 # See man bash for more options...
 #
