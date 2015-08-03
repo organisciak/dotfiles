@@ -126,9 +126,12 @@ alias egrep='egrep --color=auto'              # show differences in colour
 alias fgrep='fgrep --color=auto'              # show differences in colour
 
 # Personal Aliases
-alias drop='cd /cygdrive/c/Users/Peter/Dropbox/'
-alias diss='cd /cygdrive/c/Users/Peter/Dropbox/School/phd6-post-field-exam/dissertation/'
-alias crowdy='cd /cygdrive/c/Users/Peter/Dropbox/School/phd6-post-field-exam/crowdy/'
+export DROP='/cygdrive/c/Users/Peter/Dropbox/'
+alias drop='cd $DROP'
+export DISS=$DROP/School/phd6-post-field-exam/dissertation/
+alias diss='cd $DISS'
+export CROWDY=$DROP/School/phd6-post-field-exam/crowdy-backend/
+alias crowdy='cd $CROWDY'
 alias htrc='cd /cygdrive/c/Users/Peter/Dropbox/work/htrc/'
 alias mirex='cd /cygdrive/c/Users/Peter/Dropbox/work/mirex/'
 
