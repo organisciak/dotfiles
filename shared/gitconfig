@@ -1,0 +1,19 @@
+[user]
+	email = organisciak@gmail.com
+	name = Peter Organisciak
+[alias]
+	st = status --short --ignore-submodules
+	wiff = diff --word-diff
+	ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+[core]
+	filemode = false
+	editor = vim
+	excludesfile = ~/dotfiles/shared/gitignore
+	attributesfile = ~/dotfiles/shared/gitattributes
+[push]
+	default = simple
+[color]
+	ui = auto
+[filter "dropoutput_ipynb"]
+	clean = ~/dotfiles/scripts/ipynb_output_filter.py
+	smudge = cat
