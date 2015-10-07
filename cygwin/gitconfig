@@ -10,9 +10,13 @@
 	filemode = false
 	editor = vim
 	excludesfile = /home/Peter/dotfiles/.gitignore_global
+	attributesfile = /home/Peter/dotfiles/.gitattributes_global
 [push]
 	default = simple
 [color]
 	ui = auto
 [credential]
 	helper = !'/cygdrive/C/Users/Peter/AppData/Roaming/GitCredStore/git-credential-winstore.exe'
+[filter "dropoutput_ipynb"]
+	clean = /home/Peter/dotfiles/scripts/ipynb_output_filter.py
+	smudge = cat

@@ -5,6 +5,7 @@ My various configuration dotfiles. Specific to my use, but may inspire other peo
 ```
 # Git settings
 ln -s ~/dotfiles/.gitconfig ~/.gitconfig
+
 # Cygwin (windows environment)
 ln -s ~/dotfiles/.minttyrc ~/.minttyrc
 ln -s ~/dotfiles/.bashrc ~/.bashrc
