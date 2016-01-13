@@ -28,6 +28,10 @@
 
 # Shell Options
 
+# Virtualenv wrapper
+export WORKON_HOME=~/Envs
+source /usr/bin/virtualenvwrapper.sh
+
 # Add PATHs (cygwin)
 node='/cygdrive/c/Program Files (x86)/nodejs'
 npm=/cygdrive/c/Users/Peter/AppData/Roaming/npm/
@@ -43,8 +47,13 @@ source ~/dotfiles/tmuxinator.bash
 
 export EDITOR='vim'
 
-# 256 color support
-export TERM=xterm-256color
+
+# 256 color support, but only if not using ConEmu.
+if [ -v ConEmuPID ]; then
+	export TERM=putty
+else 
+	export TERM=xterm-256color
+fi
 
 #
 # See man bash for more options...
