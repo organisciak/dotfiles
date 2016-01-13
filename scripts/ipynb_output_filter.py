@@ -38,8 +38,6 @@ else:
 
 for sheet in sheets:
     for cell in sheet.cells:
-        if "outputs" in cell:
-            cell.outputs = []
         for field in ("prompt_number", "execution_number"):
             if field in cell:
                 del cell[field]
