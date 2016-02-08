@@ -8,7 +8,9 @@ ln -s ~/dotfiles/.gitconfig ~/.gitconfig
 
 # Cygwin (windows environment)
 ln -s ~/dotfiles/.minttyrc ~/.minttyrc
-ln -s ~/dotfiles/.bashrc ~/.bashrc
+ln -s ~/dotfiles/cygwin/bashrc ~/.bashrc
+ln -s ~/dotfiles/cygwin/gitconfig ~/.gitconfig
+
 # Tmux
 ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
 ```
