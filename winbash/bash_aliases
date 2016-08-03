@@ -1,0 +1,7 @@
+# Personal Aliases
+export DROP='/mnt/c/Users/c/Users/organis2/Dropbox/'
+alias drop='cd $DROP'
+alias htrc='cd /mnt/c/Users/organis2/Dropbox/work/htrc/'
+alias mirex='cd /mnt/c/Users/organis2/Dropbox/work/mirex/'
+
+
