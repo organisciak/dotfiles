@@ -1,7 +1,9 @@
 [include]
 	path = ~/dotfiles/shared/gitconfig
 [credential]
-	helper = !'/cygdrive/C/Users/Peter/AppData/Roaming/GitCredStore/git-credential-winstore.exe'
+	helper = !'/cygdrive/c/Users/organis2/AppData/Roaming/GitCredStore/git-credential-winstore.exe'
 [filter "dropoutput_ipynb"]
-	clean = /home/Peter/dotfiles/scripts/ipynb_output_filter.py
+	clean = /home/$USER/dotfiles/scripts/ipynb_output_filter.py
 	smudge = cat
+[core]
+	filemode = false
