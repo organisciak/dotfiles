@@ -1,13 +1,13 @@
 
 # Personal Aliases
-export DROP='/cygdrive/c/Users/Peter/Dropbox/'
+export DROP='/cygdrive/c/Users/$USER/Dropbox/'
 alias drop='cd $DROP'
 export DISS=$DROP/School/phd6-post-field-exam/dissertation/
 alias diss='cd $DISS'
 export CROWDY=$DROP/School/phd6-post-field-exam/crowdy-backend/
 alias crowdy='cd $CROWDY'
-alias htrc='cd /cygdrive/c/Users/Peter/Dropbox/work/htrc/'
-alias mirex='cd /cygdrive/c/Users/Peter/Dropbox/work/mirex/'
+alias htrc='cd /cygdrive/c/Users/$USER/Dropbox/work/htrc/'
+alias mirex='cd /cygdrive/c/Users/$USER/Dropbox/work/mirex/'
 
 alias heroku='/cygdrive/c/Program\ Files\ \(x86\)/Heroku/bin/heroku.bat'
 
